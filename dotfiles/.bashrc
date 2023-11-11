@@ -17,8 +17,6 @@ alias dot="cd ~/dotfiles"
 alias matrix="cmatrix -r -b -a -u 3"
 alias logout="wlogout"
 alias tor="tor-browser"
-alias axoims="nvim /mnt/00_root/00_Root/01_Personal/02_Projects/03_Andrew/ListOfAxoims.txt"
-
 # alias rm="rm -i"
 # alias cp="cp -i"
 # alias mv="mv -i"
@@ -26,18 +24,10 @@ alias axoims="nvim /mnt/00_root/00_Root/01_Personal/02_Projects/03_Andrew/ListOf
 # Open Newsboat and refresh links
 alias news="newsboat -r"
 
-# Open neomutt and refresh links
-alias emails='neomutt'
-
 # alias notes='vim ~/notes.txt'
 
 alias docs="nvim ~/dotfiles/README.md"
 
-# Open Video Game Therapy File
-alias vgt="nvim +$ /mnt/00_root/00_Root/01_RustyBucketz30/02_VideoGameTherapy/03_MasterResources/Video_Game_Therapy_Topics.txt"
-
-# Open links.md file for the month - update monthly
-alias links="nvim +$ /mnt/00_root/00_Root/01_RustyBucketz30/02_Website/rustybucketz.xyz/md_backlog/november-2023.md"
 alias keys="nvim ~/dotfiles/hypr/keybindings.conf"
 
 # GIT

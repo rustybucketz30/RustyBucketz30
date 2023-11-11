@@ -13,8 +13,6 @@ else
     echo ".config folder created."
 fi
 
-
-
 echo "-> Installing general dotfiles"
 # ----------------------------------------------------------------------------------------- #
 
