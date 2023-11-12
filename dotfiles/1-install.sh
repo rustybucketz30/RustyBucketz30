@@ -69,15 +69,6 @@ packagesPacman=(
     
     # Sound
     "pavucontrol" # for volume control
-    
-    # Desktop Integration
-    "xdg-desktop-portal-gtk" # needed for theming
-    "xdg-desktop-portal-wlr" # needed for theming
-    "xdg-desktop-portal-hyprland"
-    "xdg-utils"
-    "xfce4-settings"
-    "qt5-wayland"
-    "qt6-wayland"
 
     # System Info Display
     "neofetch" # to flex
@@ -98,6 +89,15 @@ packagesPacman=(
     # hyperland
     "hyprland" # window manager
     "waybar" # for status bar 
+
+    # Desktop Integration
+    "xdg-desktop-portal-gtk" # needed for theming
+    "xdg-desktop-portal-wlr" # needed for theming
+    "xdg-desktop-portal-hyprland"
+    # "xdg-utils"
+    # "xfce4-settings"
+    # "qt5-wayland"
+    "qt6-wayland"
 )
 
 packagesYay=(

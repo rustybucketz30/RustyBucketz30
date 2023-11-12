@@ -7,6 +7,9 @@ echo "-> Checking if ~/.config exists"
 if [ -d ~/.config ]; then
     echo ".config folder already exists."
 else
+    rm -rf ~/.config
+    rm -rf ~/.config/wal
+    rm -rf ~/.config/wal/templates
     mkdir ~/.config
     mkdir ~/.config/wal
     mkdir ~/.config/wal/templates
@@ -20,9 +23,6 @@ _installSymLink .basrc ~/dotfiles/.bashrc ~/.bashrc
 _installSymLink alacritty ~/dotfiles/alacritty/ ~/.config/alacritty
 _installSymLink vim ~/dotfiles/vim/ ~/.config/vim
 _installSymLink nvim ~/dotfiles/nvim/ ~/.config/nvim
-_installSymLink dolphinrc ~/dotfiles/dolphin/dolphinrc ~/.config/dolphinrc
-_installSymLink dolphinviewrc ~/dotfiles/dolphin/dolphinviewrc ~/.config/dolphinviewrc
-_installSymLink starship ~/dotfiles/starship/starship.toml ~/.config/starship.toml
 _installSymLink rofi ~/dotfiles/rofi/ ~/.config/rofi
 _installSymLink dunst ~/dotfiles/dunst/ ~/.config/dunst
 _installSymLink wal ~/dotfiles/wal/ ~/.config/wal
@@ -35,7 +35,6 @@ _installSymLink .icons ~/dotfiles/gtk/.icons/ ~/.icons
 _installSymLink hypr ~/dotfiles/hypr/ ~/.config/hypr
 _installSymLink waybar ~/dotfiles/waybar/ ~/.config/waybar
 _installSymLink wlogout ~/dotfiles/wlogout/ ~/.config/wlogout
-_installSymLink swappy ~/dotfiles/swappy/ ~/.config/swappy
 
 # ----------------------------------------------------------------------------------------- #
 
