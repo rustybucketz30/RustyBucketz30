@@ -6,7 +6,7 @@ import random
 # User Configurable Variables
 
 # Number of days to go back
-days_to_go_back = 102
+days_to_go_back = 304
 
 # Percentage chance of skipping a day
 skip_day_chance = 0.4  # equivalent to 1/5
@@ -24,9 +24,10 @@ weights = [9, 6, 3, 6, 14, 1, 1, 5, 1, 1, 3, 1]
 # Git branch to which commits will be pushed
 git_branch = 'master'
 
-# Main Script
 
-for i in range(days_to_go_back):
+start_day = 102
+# Main Script
+for i in range(start_day, days_to_go_back + 1):
     # Skip days based on configured probability
     if random.random() < skip_day_chance:
         continue
