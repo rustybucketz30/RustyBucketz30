@@ -6,7 +6,7 @@ import random
 # User Configurable Variables
 
 # Number of days to go back
-days_to_go_back = 21
+days_to_go_back = 102
 
 # Percentage chance of skipping a day
 skip_day_chance = 0.4  # equivalent to 1/5
